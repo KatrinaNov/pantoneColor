@@ -23,6 +23,7 @@ let checkData = JSON.parse(localStorage.getItem('check')) || checkArrStart;
 const hideCol = () => {
   const uncheckData = checkData.filter(item => !item.checked);
   if (uncheckData.length !== 0) {
+    resetBtn.classList.add('active');
     uncheckData.forEach(item => {
       document.querySelectorAll(`[data-name=${item.name}]`).forEach(td => td.style.display = 'none');
     });
