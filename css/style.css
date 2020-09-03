@@ -1,0 +1,106 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #E5E5E5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  background: #fff;
+  width: 640px;
+  margin: 80px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 24px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.reset {
+  background: transparent;
+  border: none;
+  line-height: 21px;
+  color: #888888;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 60px;
+}
+
+.active {
+  color: #0075FF;
+}
+
+.active path {
+  fill: #0075FF;
+}
+
+.table {
+  width: 100%;
+}
+
+.table__header {
+  padding: 0 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.input-group {
+  text-align: left;
+  padding: 6px 10px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.input-group:not(:first-of-type) {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.input-group label {
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.input-group input {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.color td {
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.color__example {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.color__id, .color__year {
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
